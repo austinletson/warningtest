@@ -1,0 +1,10 @@
+name = "warningtest"
+version = "0.1.0"
+defaultTargets = ["warningtest"]
+
+[[lean_lib]]
+name = "Warningtest"
+
+[[lean_exe]]
+name = "warningtest"
+root = "Main"
